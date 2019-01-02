@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+    <EditText
+        android:hint="Email"
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Pass"
+        android:layout_below="@id/edEmail"
+        android:id="@+id/edPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="DangKi"
+        android:text="Đăng Kí"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/edPass"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+    <Button
+        android:onClick="DangNhap"
+        android:text="Đăng Nhập"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/edPass"
+        android:layout_toRightOf="@id/btnRegister"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+</RelativeLayout>

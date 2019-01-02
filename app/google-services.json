@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "178314825981",
+    "firebase_url": "https://test-login-4f2a2.firebaseio.com",
+    "project_id": "test-login-4f2a2",
+    "storage_bucket": "test-login-4f2a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178314825981:android:00bc3b18f4257e7a",
+        "android_client_info": {
+          "package_name": "com.example.phamtruong.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178314825981-riig065tqrsa5aji9o4al03ahs1c5npf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phamtruong.test",
+            "certificate_hash": "debd4e273a4abdb6aac036283ec6b66bacdf3077"
+          }
+        },
+        {
+          "client_id": "178314825981-c3b0l040k8a2lovoi1pgjt60q7vsb0je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC3xYE4Ak-fsESdaxAwnQBXiEP8KyUTtk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178314825981-c3b0l040k8a2lovoi1pgjt60q7vsb0je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
